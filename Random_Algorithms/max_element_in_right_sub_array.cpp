@@ -32,12 +32,6 @@ void  GetMaxInRightSubArrayForEachElem (int arr[] , int left_idx, int right_idx)
 			result_arr[i] = max_elem;
 			continue;
 		}
-
-		if (i == right_idx)
-		{
-			result_arr[i] = -1;
-			continue;
-		}
 	}	
 
 }
