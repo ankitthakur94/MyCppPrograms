@@ -19,8 +19,6 @@ void  GetMaxInRightSubArrayForEachElem (int arr[] , int left_idx, int right_idx)
 	int max_elem = -1;
 	for (int i= right_idx; i >= left_idx; i--)
 	{
-		cout << " Processing i = " << i << endl;
-
 		if (arr[i] >= max_elem)
 		{
 			max_elem = arr[i];
